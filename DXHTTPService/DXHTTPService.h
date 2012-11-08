@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <DXServices/DXService.h>
 
-@interface DXHTTPService : NSObject
+@interface DXHTTPService : DXService
 
 @end
