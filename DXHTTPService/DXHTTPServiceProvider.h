@@ -1,5 +1,5 @@
 //
-//  DXHTTPService.h
+//  DXHTTPServiceProvider.h
 //  DXHTTPService
 //
 //  Created by zen on 11/8/12.
@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <DXServices/DXServiceProvider.h>
 
-@interface DXHTTPService : DXService
+@interface DXHTTPServiceProvider : NSObject <DXServiceProvider>
 
 @end

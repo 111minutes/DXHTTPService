@@ -7,7 +7,13 @@
 //
 
 #import "DXHTTPService.h"
+#import "DXHTTPServiceProvider.h"
 
 @implementation DXHTTPService
+
+- (id<DXServiceProvider>)serviceProviderForIntentClass:(Class)IntentClass
+{
+    return [DXHTTPServiceProvider new];
+}
 
 @end
